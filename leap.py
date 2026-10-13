@@ -7,4 +7,5 @@ def leapYear(year):
         return "Not a leap year"
 
 year = int(sys.argv[1])
+print(sys.argv[1])
 leapYear(year)
